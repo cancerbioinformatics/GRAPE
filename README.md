@@ -8,8 +8,8 @@
 
 This repo contains all documentation for the GRAPE dataset hosted on AWS
 
-- Dataset Size: 0TB
-- Contact Name: Gregory Verghese
+- Dataset size: 0TB
+- Contact name: Gregory Verghese
 - Institution name: Kings's College London
 - Institution URL: http://cancerbioinformatics.co.uk/
 - Download at AWS: https://registry.opendata.aws/GRAPE/
