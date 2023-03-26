@@ -1,5 +1,9 @@
 # GRAPE - Guys bReast cAncer lymPh nodEs
 
+<p align="center">
+  <img src="grapes.jpg">
+</p>
+
 This repo contains all documentation for the GRAPE dataset hosted on AWS
 
 - Dataset Size: 0TB
