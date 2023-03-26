@@ -30,6 +30,9 @@ wsi_thumbnail = wsi.get_thumbnail((1000,1000))
 dims=wsi.dimensions
 ```
 
+![](wsi.png)
+
+
 ## Credits
 
 If you find the data useful, please cite the below paper:
