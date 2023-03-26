@@ -20,8 +20,6 @@ This is a retrospective dataset of H&E-stained whole slide image (WSI) lymph nod
 Below code demonstrates how to load WSIs programmatically using Python openslide package
  
  ```python
-# Read data
-
 import openslide
 
 wsi = openslide.OpenSlide("/Path/to/wsi.ndpi")
