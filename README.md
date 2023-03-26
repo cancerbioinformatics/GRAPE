@@ -1,7 +1,7 @@
 # GRAPE - Guys bReast cAncer lymPh nodEs
 
 <p align="center">
-  <img width="90" height="30" src="grapes.png">
+  <img width="200" height="100" src="grapes.png">
 </p>
 
 This repo contains all documentation for the GRAPE dataset hosted on AWS
