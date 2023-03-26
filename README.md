@@ -15,6 +15,20 @@ This is a retrospective dataset of H&E-stained whole slide image (WSI) lymph nod
 
 ## Data structure
 
+``` bash
+.
+└── GRAPE
+    ├── KCL001
+    │   ├── kcl001_1.ndpi
+    │   └── kcl001_2.ndpi
+    ├── KCL002
+    │   ├── kcl002_1.ndpi
+    │   ├── kcl002_2.ndpi
+    │   └── kcl002_3.ndpi
+    └── KCL003
+        └── kcl003_1.ndpi
+```
+
 ## Example usage
 
 Below code demonstrates how to load WSIs programmatically using Python Openslide package
