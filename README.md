@@ -15,20 +15,49 @@ This is a retrospective dataset of H&E-stained whole slide image (WSI) lymph nod
 
 ## Data structure
 
+Patients indexed with KCL001 format. Each folder contains WSIs for a single patient.
+
+``` bash
+.
+└── GRAPE
+    ├── KCL001
+    │   ├── kcl001_1.ndpi
+    │   └── kcl001_2.ndpi
+    ├── KCL002
+    │   ├── kcl002_1.ndpi
+    │   ├── kcl002_2.ndpi
+    │   └── kcl002_3.ndpi
+    └── KCL003
+        └── kcl003_1.ndpi
+```
+
 ## Example usage
 
-Below code demonstrates how to load WSIs programmatically using Python openslide package
+Below code demonstrates how to load WSIs programmatically using Python Openslide package
  
  ```python
 import openslide
+import numpy as np
+import matplotlib.pyplot as plt
 
-#read WSI
+#Read WSI
 wsi = openslide.OpenSlide("/Path/to/wsi.ndpi")
-wsi_thumbnail = wsi.get_thumbnail((1000,1000))
 
 #Get slide properties
 dims=wsi.dimensions
+x_resolution=wsi.properties[openslide.PROPERTY_NAME_MPP_X]
+y_resolution=wsi.properties[openslide.PROPERTY_NAME_MPP_X]
+base_mag=wsi.properties[openslide.PROPERTY_NAME_OBJECTIVE_POWER]
+
+#Display thumbnail
+wsi_thumbnail = wsi.get_thumbnail((1000,1000))
+wsi_thumbnail=np.array(wsi_thumbnail)
+plt.imshow(wsi_thumbnail)
+plt.axis('off')
 ```
+
+![](wsi.png)
+
 
 ## Credits
 
