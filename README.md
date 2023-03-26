@@ -22,12 +22,20 @@ Below code demonstrates how to load WSIs programmatically using Python openslide
  ```python
 import openslide
 
-#read WSI
+#Read WSI
 wsi = openslide.OpenSlide("/Path/to/wsi.ndpi")
-wsi_thumbnail = wsi.get_thumbnail((1000,1000))
 
 #Get slide properties
 dims=wsi.dimensions
+x_resolution=wsi.properties[openslide.PROPERTY_NAME_MPP_X]
+y_resolution=wsi.properties[openslide.PROPERTY_NAME_MPP_X]
+base_mag=wsi.properties[openslide.PROPERTY_NAME_OBJECTIVE_POWER]
+
+#Display thumbnail
+wsi_thumbnail = wsi.get_thumbnail((1000,1000))
+wsi_thumbnail=np.array(wsi_thumbnail)
+plt.imshow(wsi_thumbnail)
+plt.axis('off')
 ```
 
 ![](wsi.png)
