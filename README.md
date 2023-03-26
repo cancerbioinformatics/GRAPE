@@ -7,7 +7,7 @@ This repo contains all documentation for the GRAPE dataset hosted on AWS
 - Institution name: Kings's College London
 - Institution URL: [url_cb]: http://cancerbioinformatics.co.uk/
 - Download at AWS: https://registry.opendata.aws/GRAPE/
-- Contact email:[Gregory Verghese](gregory.verghese.@kcl.ac.uk)
+- Contact email: [Gregory Verghese](gregory.verghese.@kcl.ac.uk)
 
 ## Description
 
