@@ -21,6 +21,8 @@ Below code demonstrates how to load WSIs programmatically using Python Openslide
  
  ```python
 import openslide
+import numpy as np
+import matplotlib.pyplot as plt
 
 #Read WSI
 wsi = openslide.OpenSlide("/Path/to/wsi.ndpi")
