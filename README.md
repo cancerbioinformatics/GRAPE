@@ -15,6 +15,8 @@ This is a retrospective dataset of H&E-stained whole slide image (WSI) lymph nod
 
 ## Data structure
 
+Patients indexed with KCL001 format. Each folder contains WSIs for a single patient.
+
 ``` bash
 .
 └── GRAPE
