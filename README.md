@@ -26,16 +26,30 @@ Patients indexed with KCL001 format. Each folder contains WSIs for a single pati
 ``` bash
 .
 └── GRAPE
-    ├── KCL001
-    │   ├── kcl001_1.ndpi
-    │   └── kcl001_2.ndpi
-    ├── KCL002
-    │   ├── kcl002_1.ndpi
-    │   ├── kcl002_2.ndpi
-    │   └── kcl002_3.ndpi
-    └── KCL003
-        └── kcl003_1.ndpi
+    ├── KCLCB_pa01
+    │   ├── KCLCB_pa01_img10.ndpi
+    │   ├── KCLCB_pa01_img11.ndpi
+    │   ├── KCLCB_pa01_img12.ndpi
+    │   ├── KCLCB_pa01_img13.ndpi
+    │   ├── KCLCB_pa01_img14.ndpi
+    │   ├── KCLCB_pa01_img15.ndpi
+    │   ├── KCLCB_pa01_img16.ndpi
+    │   ├── KCLCB_pa01_img2.ndpi
+    │   ├── KCLCB_pa01_img3.ndpi
+    │   ├── KCLCB_pa01_img4.ndpi
+    │   ├── KCLCB_pa01_img5.ndpi
+    │   ├── KCLCB_pa01_img6.ndpi
+    │   ├── KCLCB_pa01_img7.ndpi
+    │   ├── KCLCB_pa01_img8.ndpi
+    │   └── KCLCB_pa01_img9.ndpi
+    ├── KCLCB_pa02
+    │   ├── KCLCB_pa02_img1.ndpi
+    │   ├── KCLCB_pa02_img10.ndpi
+    │   ├── KCLCB_pa02_img11.ndpi
+    ...
 ```
+
+
 
 ## Example usage
 
