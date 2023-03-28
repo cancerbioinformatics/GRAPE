@@ -21,31 +21,20 @@ This is a retrospective dataset of X H&E-stained whole slide image (WSI) lymph n
 
 ## Data structure
 
-Patients indexed with KCL001 format. Each folder contains WSIs for a single patient.
+Patients indexed with KCLCB_pa01 format. Each folder contains WSIs for a single patient.
 
 ``` bash
 .
 └── GRAPE
     ├── KCLCB_pa01
-    │   ├── KCLCB_pa01_img10.ndpi
-    │   ├── KCLCB_pa01_img11.ndpi
-    │   ├── KCLCB_pa01_img12.ndpi
-    │   ├── KCLCB_pa01_img13.ndpi
-    │   ├── KCLCB_pa01_img14.ndpi
-    │   ├── KCLCB_pa01_img15.ndpi
-    │   ├── KCLCB_pa01_img16.ndpi
+    │   ├── KCLCB_pa01_img1.ndpi
     │   ├── KCLCB_pa01_img2.ndpi
     │   ├── KCLCB_pa01_img3.ndpi
-    │   ├── KCLCB_pa01_img4.ndpi
-    │   ├── KCLCB_pa01_img5.ndpi
-    │   ├── KCLCB_pa01_img6.ndpi
-    │   ├── KCLCB_pa01_img7.ndpi
-    │   ├── KCLCB_pa01_img8.ndpi
-    │   └── KCLCB_pa01_img9.ndpi
+    │   └── KCLCB_pa01_img4.ndpi
     ├── KCLCB_pa02
     │   ├── KCLCB_pa02_img1.ndpi
-    │   ├── KCLCB_pa02_img10.ndpi
-    │   ├── KCLCB_pa02_img11.ndpi
+    │   ├── KCLCB_pa02_img2.ndpi
+    │   ├── KCLCB_pa02_img3.ndpi
     ...
 ```
 
