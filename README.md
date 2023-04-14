@@ -12,7 +12,7 @@ This repo contains all documentation for the GRAPE dataset hosted on AWS
 - Contact name: Gregory Verghese
 - Institution name: Kings's College London
 - Institution URL: http://cancerbioinformatics.co.uk/
-- Download at AWS: https://registry.opendata.aws/GRAPE/
+- Download at AWS: https://registry.opendata.aws/guys-breast-cancer-lymph-nodes/
 - Contact email: [Gregory Verghese](gregory.verghese.@kcl.ac.uk)
 
 ## Description
