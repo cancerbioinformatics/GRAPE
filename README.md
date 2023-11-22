@@ -70,13 +70,14 @@ plt.axis('off')
 
 ## Credits
 
-If you find the data useful, please cite the below paper:
+If you find the data useful, please cite the below [paper](https://pathsocjournals.onlinelibrary.wiley.com/doi/10.1002/path.6088):
 
     @inproceedings{,
-        title={},
-        booktitle={},
-        author={},
-        year={}
+        title={Multiscale deep learning framework captures systemic immune features in lymph nodes predictive of triple negative breast cancer outcome in large‐scale studies},
+        journal={The Journal of Pathology},
+        authors={Gregory Verghese, Mengyuan Li, Fangfang Liu, Amit Lohan, Nikhil Cherian Kurian, Swati Meena, Patrycja Gazinska, Aekta Shah, Aasiyah Oozeer, Terry Chan, Mark Opdam, Sabine Linn, Cheryl Gillett, Elena Alberts, Thomas Hardiman, Samantha Jones, Selvam Thavaraj, J Louise Jones, Roberto Salgado, Sarah E Pinder, Swapnil Rane, Amit Sethi, Anita Grigoriadis},
+        year={2023}
+        DOI: {10.1002/path.6088}
     }
 
 ## License
